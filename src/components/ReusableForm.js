@@ -20,4 +20,4 @@ ReusableForm.propTypes = {
   buttonText: PropTypes.string
 }
 
-export ReusableForm;
+export default ReusableForm;
