@@ -44,7 +44,7 @@ class KegControl extends React.Component {
     const selectedKeg = this.state.selectedKeg;
     let newQuantity;
     if (toSell) {
-      newQuantity = Object.assign({}, selectedKeg, { quantity: parseInt(selectedKeg.quantity) + 1});
+      newQuantity = Object.assign({}, selectedKeg, { quantity: parseInt(selectedKeg.quantity) + 1 });
     } else {
       newQuantity = Object.assign({}, selectedKeg, { quantity: parseInt(selectedKeg.quantity) -1 });
     }

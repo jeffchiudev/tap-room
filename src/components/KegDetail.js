@@ -25,7 +25,7 @@ function KegDetail (props) {
       <button onClick = { props.onClickingEdit }>Update Keg Details</button>
       <button onClick = { () => onClickingDelete(keg.id)}>Remove Keg</button>
     </React.Fragment>
-  )
+  );
 }
 
 KegDetail.propTypes = {

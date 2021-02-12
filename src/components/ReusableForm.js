@@ -13,12 +13,12 @@ function ReusableForm(props) {
         <button type='submit'>{props.buttonText}</button>
       </form>
     </React.Fragment>
-  )
+  );
 }
 
 ReusableForm.propTypes = {
   formSubmissionHandler: PropTypes.func,
   buttonText: PropTypes.string
-}
+};
 
 export default ReusableForm;
