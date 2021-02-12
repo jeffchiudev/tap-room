@@ -8,7 +8,7 @@ function Keg(props) {
         <h3>{props.name}</h3>
       </div>
     </React.Fragment>
-  )
+  );
 }
 
 Keg.propTypes = {
