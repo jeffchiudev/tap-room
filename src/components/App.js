@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import StockControl from './StockControl';
+import KegControl from './KegControl';
 
 function App() {
   return (

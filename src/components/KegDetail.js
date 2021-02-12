@@ -5,7 +5,7 @@ function KegDetail (props) {
   const {keg, onClickingDelete, onClickingSell} = props;
   let sellButton;
   let quantity;
-  if (item.quantity !== 0) {
+  if (keg.quantity !== 0) {
     quantity = <h4>{keg.quantity}</h4>;
     sellButton = <button onClick={ () => onClickingSell(false)}>Sell Pint</button>;
   } else {

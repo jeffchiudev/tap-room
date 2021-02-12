@@ -3,6 +3,7 @@ import NewKegForm from './NewKegForm';
 import KegList from './KegList';
 import KegDetail from './KegDetail';
 import EditKegForm from './EditKegForm';
+import Keg from './Keg';
 
 class KegControl extends React.Component {
 
@@ -40,4 +41,11 @@ class KegControl extends React.Component {
     });
   }
 
+  handleSellingStockInList = (toSell) => {
+    const selectedKeg = this.state.selectedKeg;
+    let newQuantity;
+  }
+
 }
+
+export default KegControl;
